@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .img1{
+                width: 100%;
+            }
+            .p1{
+                font-weight: bold;
+                font-family: arial;
+                font-size: 20px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+            }
+            .sub-image{
+                width:50px;
+                border-radius:50%;
+                display:inline-block;
+                margin-bottom: 10px;
+                margin-top:0px;
+            }
+            .p2{
+                font-family: arial;
+                font-size:14px;
+                color:grey;
+            }   
+            .b1{
+                background-color: rgb(2, 96, 204);
+                color: white;
+                border:none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 4px;
+                margin-top: 0px;
+                margin-left: 10px;
+                transition: background-color 1s;
+            }
+            .b1:hover{
+                background-color: white;
+                color: rgb(2, 96, 204);
+                border:solid;
+                border-width: 1px;
+            }
+            .b1:active{
+                opacity:0.7;
+            }
+            .d1{
+                display: grid;
+                grid-template-columns: 50px 100px;
+                column-gap: 10px;
+                margin-left: 10px;
+            }
+           .div-name{
+            display:block;
+           }
+           .div1{
+            display: block;
+            box-shadow: 0 0 15px 5px rgba(0,0,0,0.3);
+           }
+           .whole-div{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 20px;
+           }
+        </style>
+        
+    </head>
+    <body>
+        <div class="whole-div">
+            <div class="div1"> 
+             <img class="img1" src="catimage.jpg">
+             <div class="div-name">
+                <p class="p1">Oliver</p>
+        <div class="d1">
+         <img class="sub-image" src="dogimage2.jpg">
+        <p class="p2">2 mutual friends</p>
+        </div>
+        <button class="b1">Add Friend</button>
+             </div>
+             </div>
+
+             <div class="div1"> 
+             <img class="img1" src="catimage2.jpg">
+             <div class="div-name">
+                <p class="p1">Mimi</p>
+        <div class="d1">
+         <img class="sub-image" src="dogimage2.jpg">
+        <p class="p2">3 mutual friends</p>
+        </div>
+        <button class="b1">Add Friend</button>
+             </div>
+             </div>
+
+             <div class="div1"> 
+             <img class="img1" src="dogimage.jpg">
+             <div class="div-name">
+                <p class="p1">jack</p>
+        <div class="d1">
+         <img class="sub-image" src="dogimage2.jpg">
+        <p class="p2">4 mutual friends</p>
+        </div>
+        <button class="b1">Add Friend</button>
+             </div>
+             </div>
+    </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .whole-div {
+            width: 380px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name {
+            font-family: Arial;
+            font-size: 22px;
+            margin: 0;
+        }
+
+        .count {
+            background-color: rgb(55, 100, 190);
+            color: white;
+            border: none;
+            border-radius: 20px;
+
+            font-size: 18px;
+            font-weight: bold;
+
+            padding: 6px 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="whole-div">
+
+        <div class="row">
+            <p class="name">Home</p>
+            <button class="count">14</button>
+        </div>
+
+        <div class="row">
+            <p class="name">Notifications</p>
+            <button class="count">3</button>
+        </div>
+
+        <div class="row">
+            <p class="name">Messages</p>
+            <button class="count">5</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
